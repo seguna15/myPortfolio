@@ -91,7 +91,7 @@ section{
     z-index: 999;
 }
 .brand-and-toggler{
-    font-size: 1.6rem;
+    font-size: 1.65rem;
     padding: 0.8rem 0;
     display: flex;
     justify-content: space-between;
@@ -531,10 +531,6 @@ section{
     .contact-right > div:first-child{
         margin-top: 0;
     }
-    iframe{
-       width: 100%;
-        height: auto;
-    }
 }
 @media screen and (min-width: 992px){
     .navbar{
@@ -597,7 +593,6 @@ section{
     .services .title{
         padding: 0.6rem 0 2rem 0;
     }
-
 }
 
 @media screen and (min-width: 1200px){
@@ -618,5 +613,25 @@ section{
     .contact-right{
         padding-left: 4rem !important;
     }
+   
+}
+@media screen and (min-width: 620px){
+    iframe{
+        width: 600px;
+        height: 450px;
+    }
+}
+@media(max-width: 700px){
+    .container{
+        width: 100%;
+    }
+   
+    
 }
 
+@media(max-width: 600px){
+    iframe{
+        width: 100%;
+        height: auto;
+    }
+}
